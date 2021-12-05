@@ -49,13 +49,13 @@ Github and Cloud9 setup using Personal Access Token:
 
 18. git add --all
 19. git status
-20. git commit -m "first python code"
+20. git commit -m "Py Flask example"
 21. git push
   a. github username:
   b. password: copy and paste the account access token
 22. check the changes by using: git log
 23. Go to Github repository to check the changes
-24. Go to Cloud9 and create a second python file: ex2-flask.py
+24. Go to Cloud9 and create a second python file: SimpleForm.py
 25. Edit the file by copy/paste the basic Flask code
 26. Save and Run the file
 27. In the terminal, install Flask package (library): python3 -m pip install flask
