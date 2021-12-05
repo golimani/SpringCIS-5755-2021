@@ -17,6 +17,23 @@ The application is a basic form in Flask that will take input from the user  and
 
 ### Major Steps::
 
+1.	As the first step, logged into GitHub and created a repository “SpringCIS-5755-2021” and made it public
+2.	A personal access token is created by following the below:  account profile > settings >Developer Settings >Personal Access Tokens
+3.	A new cloud9 environment was created and the README.md file is deleted.
+4.	git config --global credential.helper store
+5.	Clone the git repository  git clone https://github.com/golimani/SpringCIS-5755-2021.git
+6.	Crete a new folder in project folder: mkdir Chapter-1
+7.	Change to the new directory and set python environment python3 -m venv env source env/bin/activate
+8.	As initial learning tried the “Hello world” program and executed it “ex1-print.py”
+9.	Now as per the project plan created three program files by referring https://stackoverflow.com/questions/49900340/basic-flask-form-handling : SimpleForm.py index.html age.html
+10.	Later, executed the program by using command: python3 SimpleForm.py
+11.	Then to view the app, tools > select Preview > Preview Running applications
+12.	Finally, pushed all the updated codes to github by using the below commands 
+13.	1:: git add --all
+2:: git status
+3:: git commit -m "Py Flask example"
+4:: git push (during this step please give ur email and token as password)
+
 ---------------------------------------------------
 Github and Cloud9 setup using Personal Access Token:
 ----------------------------------------------------- 
