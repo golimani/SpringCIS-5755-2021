@@ -32,7 +32,7 @@ The application is a basic form in Flask that will take input from the user  and
 13.	1:: git add --all
 2:: git status
 3:: git commit -m "Py Flask example"
-4:: git push (during this step please give ur email and token as password)
+4:: git push (username and token as password)
 
 ---------------------------------------------------
 Github and Cloud9 setup using Personal Access Token:
